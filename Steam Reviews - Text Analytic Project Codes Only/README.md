@@ -28,6 +28,13 @@ This project aims to develop a sentiment analysis system for user reviews on Ste
     - Finalized CSV reviews can be acessed [here](https://drive.google.com/drive/folders/1cyj5JmU34nXtflVEVaXNJtIfuJXq6U02?usp=sharing)
 
 2. Text Preprocessing
+ - Remove punctuations and standardize words into lowercases in the documents using string library
+ - Remove numbers using re.sub ( ) in regular expression library
+ - Break down the words in documents into tokens using nltk library
+ - Remove stopwords using nltk library
+ - Perform word stemming using Porter Stemmer in nltk library
+ - Perform word lemmatization using WordNetLemmatizer( ) in nltk library
+
 3. Modeling & Evaluation
 4. Visualization
 5. Sentiment Analysis
